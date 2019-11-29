@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red"," ===========================\n");
+echo color("green"," ===========================\n");
 echo color("red","| Claim Voucher Gojek|\n");
 echo color("red","| Auto create Gojek X Redeem voucher |\n");
 echo color("red","| github: gunteng |\n");
