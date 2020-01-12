@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("green","[]          PEJUANG RECEH                \n");
+echo color("green","[]          PEJUANG CUAN                \n");
 echo color("yellow","[]       AAK AND GEMBEL ELIT             \n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("yellow","[]         waiting proses.....           \n");
